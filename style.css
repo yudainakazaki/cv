@@ -30,7 +30,6 @@ h2.title {
 
 h2 {
   font-size: 2.5rem;
-  text-decoration: underline;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #2b3030;
   font-size: 56px;
@@ -51,7 +50,6 @@ p {
 
 a {
   color: #2b3030;
-  text-decoration: underline;
   font-weight: bolder;
 }
 
@@ -132,7 +130,6 @@ div.job-experience {
 
 a.transcript {
   font-size: 1.2rem;
-  text-decoration: underline;
   color: #2b3030d7;
 }
 
