@@ -26,7 +26,6 @@ h1 {
 h2.title {
   color: #ffffffc9;
   text-decoration: none;
-  font-size: 56px;
 }
 
 h2 {
@@ -34,6 +33,7 @@ h2 {
   text-decoration: underline;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #2b3030;
+  font-size: 56px;
 }
 
 h3 {
