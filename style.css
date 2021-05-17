@@ -51,6 +51,7 @@ p {
 a {
   color: #2b3030;
   font-weight: bolder;
+  text-decoration: none;
 }
 
 hr {
