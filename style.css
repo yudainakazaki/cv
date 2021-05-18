@@ -53,9 +53,9 @@ h4.period {
 }
 
 a {
-  color: #2b3030;
+  color: #f3c623;
   font-weight: bolder;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 hr {
