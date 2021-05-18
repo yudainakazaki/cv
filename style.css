@@ -46,8 +46,9 @@ p {
   margin: 0px;
 }
 
-.background-img {
-  height: 60%;
+.period {
+  font-size: 28px;
+  color: #393e46;
 }
 
 a {
