@@ -87,11 +87,11 @@ em {
 
 .top-container {
   position: relative;
-  width: 60%;
 }
 
 .profile {
   margin: 40px auto 40px auto;
+  width: 60%;
 }
 
 .profile-img {
