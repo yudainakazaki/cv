@@ -38,10 +38,12 @@ h2 {
 h3 {
   color: #2b3030;
   font-size: 36px;
+  margin: 0px;
 }
 
 p {
   font-size: 28px;
+  margin: 0px;
 }
 
 .background-img {
