@@ -1,11 +1,11 @@
 /*better to use web safe font*/
 
 html {
-  background-color: rgb(232, 239, 238);
+  background-color: black;
 }
 
 body {
-  background-color: rgb(232, 239, 238);
+  background-color: black;
   font-family: 'Open Sans Condensed', sans-serif;
   margin: 0px;
 }
@@ -13,8 +13,8 @@ body {
 header {
   width: 100%;
   text-align: center;
-  padding: 10px;
-  background-color: rgb(135, 20, 37);
+  padding: 25px 0px 0px;
+  background-color: rgb(0, 0, 0);
   color: rgb(232, 239, 238);
   font-size: 1.5rem;
 }
@@ -24,57 +24,46 @@ h1 {
   margin: 50px auto 0 auto;
   line-height: 2;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #ffffffc9;
-}
-
-h2.title {
-  color: #ffffffc9;
-  text-decoration: none;
+  color: rgb(232, 239, 238);
 }
 
 h2 {
   font-size: 2.4rem;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: rgb(42, 44, 45);
+  color: rgb(232, 239, 238);
+  margin: 0px 15px 30px 15px;
 }
 
 h3 {
   font-weight: lighter;
-  color: rgb(42, 44, 45);
+  color: rgb(232, 239, 238);
   font-size: 2.0rem;
-  margin: 0px;
+  margin: 10px 15px 10px 15px;
 }
 
 p {
   font-size: 1.4rem;
-  padding: 10px 10px 25px 25px;
-  margin: 0px;
-  color: rgb(42, 44, 45);
-}
-
-h4.period {
-  font-size: 1.4rem;
-  color: rgb(42, 44, 45);
-  padding-left: 10%;
-  margin: 10px;
+  /* padding: 0px 20px 10px 20px; */
+  margin: 0px 25px 10px 25px;
+  color: rgb(232, 239, 238);
 }
 
 a:hover {
-  text-shadow: 1px 1px 20px rgb(14, 33, 78);
-  color: rgb(42, 44, 45);
+  text-shadow: 5px -5px 10px #af2f8f, -5px 5px 10px gold, 5px 5px 10px #7a16a8, -5px -5px 10px #1dad7d;
+  transition: text-shadow .5s;
 }
 
 a {
-  color: rgb(42, 44, 45);
+  color: rgb(232, 239, 238);
   text-decoration: none;
 }
 
 hr {
   border: none;
-  border-top: 2px solid rgb(42, 44, 45);
-  width: 30%;
-  margin-top: 7%;
-  margin-bottom: 7%;
+  border-top: 2px solid rgb(232, 239, 238);
+  width: 100%;
+  margin: 8% auto 8% auto;
+  padding: 0px auto 0px auto;
 }
 
 .background-img {
@@ -104,15 +93,14 @@ em {
 }
 
 div.profile {
-  background-color: rgb(135, 20, 37);
+  background-color: rgb(0, 0, 0);
   text-align: center;
   width: 100%;
   /* width: 100%; */
   /* margin: 40px auto 40px auto; */
   /* width: 60%; */
   padding-left: auto;
-  padding-right: 2.8%;
-  margin-bottom: 5%;
+  padding-right: auto;
 }
 
 .middle-container {
@@ -122,7 +110,7 @@ div.profile {
 .profile-img {
   /* text-align: center; */
   width: 240px;
-  padding: 20px 5px 40px;
+  padding: 20px;
 
 }
 
@@ -133,7 +121,7 @@ div {
 
 .transcript {
   font-size: 1.2rem;
-  color: rgb(42, 44, 45);
+  color: rgb(232, 239, 238);
   padding-top: 0px;
 }
 
@@ -142,17 +130,17 @@ div {
 }
 
 .contact-me p {
-  color: rgb(42, 44, 45);
+  color: rgb(232, 239, 238);
 }
 
 .bottom-container {
   text-align: center;
-  background-color: rgb(135, 20, 37);
+  background-color: rgb(0, 0, 0);
   width: 100%;
 }
 
 .footer-link {
-  color: white;
+  color: rgb(232, 239, 238);
 }
 
 .logo {
@@ -163,9 +151,9 @@ div {
   border-radius: 50px;
   cursor: pointer;
   text-align: center;
-  -webkit-box-shadow: 0 0 10px 0 #2b3030;
-  -moz-box-shadow: 0 0 10px 0 #2b3030;
-  box-shadow: 0 0 10px 0 #2b3030;
+  -webkit-box-shadow: 0 0 0 0 #2b3030;
+  -moz-box-shadow: 0 0 0 0 #2b3030;
+  box-shadow: 0 0 0 0 #2b3030;
 }
 
 .logo:hover {
@@ -176,22 +164,23 @@ div {
   border-radius: 50px;
   cursor: pointer;
   text-align: center;
-  -webkit-box-shadow: 0 0 20px 0 #ffffff;
-  -moz-box-shadow: 0 0 20px 0 #ffffff;
-  box-shadow: 0 0 20px 0 #ffffff;
+  box-shadow: 5px -5px 10px #af2f7a, 5px 5px 10px gold, -5px 5px 10px #8616a8, -5px -5px 10px #1dad7d;
+  transition: box-shadow .5s;
 }
 
 .dev_logo {
   align-content: space-around;
+  padding: 15px;
 }
 
 .dev_logo_btm {
-  padding: 20px 5px 5px;
+  padding: 20px 5px 20px;
 }
 
 .copy-right {
   color: rgb(232, 239, 238);
   text-align: center;
+  margin-bottom: 3%;
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
