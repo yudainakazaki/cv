@@ -164,7 +164,7 @@ div {
   border-radius: 50px;
   cursor: pointer;
   text-align: center;
-  box-shadow: 5px -5px 10px #af2f7a, 5px 5px 10px gold, -5px 5px 10px #8616a8, -5px -5px 10px #1dad7d;
+  box-shadow: 3px -3px 15px #af2f7a, 3px 3px 15px gold, -3px 3px 15px #8616a8, -3px -3px 15px #1dad7d;
   transition: box-shadow .5s;
 }
 
@@ -329,3 +329,4 @@ div {
       width: 80%;
     } */
 }
+
