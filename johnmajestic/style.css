@@ -1,0 +1,21 @@
+.background-img {
+    margin: 10% auto 10% auto;
+    width: 50%;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+html {
+    background-color: black;
+}
+
+a > img:hover {
+    border-radius: 900px;
+    box-shadow: 25px -25px 100px #af2f8f, -25px 25px 100px gold, 25px 25px 100px #7a16a8, -25px -25px 100px #1dad7d;
+    transition: box-shadow .5s;
+}

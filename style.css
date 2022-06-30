@@ -1,0 +1,354 @@
+/*better to use web safe font*/
+
+html {
+  background-color: black;
+}
+
+body {
+  background-color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0px;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0px 0px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(232, 239, 238);
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 3.0rem;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(232, 239, 238);
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: rgb(232, 239, 238);
+  margin: 0px 15px 30px 15px;
+}
+
+h3 {
+  font-weight: lighter;
+  color: rgb(232, 239, 238);
+  font-size: 2.0rem;
+  margin: 10px 15px 10px 15px;
+}
+
+h4 {
+  font-weight: lighter;
+  color: rgb(232, 239, 238);
+  font-size: 1.5rem;
+  margin: 10px 15px 10px 15px;
+}
+
+p {
+  font-size: 1.4rem;
+  /* padding: 0px 20px 10px 20px; */
+  margin: 0px 25px 10px 25px;
+  color: rgb(232, 239, 238);
+  padding-left: 1rem;
+}
+
+a {
+  color: rgb(232, 239, 238);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+ul {
+  list-style-position: outside;
+}
+
+li {
+  font-size: 1.4rem;
+  color: rgb(232, 239, 238);
+  list-style-type: square;
+  list-style-position: inside;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid rgb(232, 239, 238);
+  width: 100%;
+  margin: 8% auto 8% auto;
+  padding: 0px auto 0px auto;
+}
+
+.background-img {
+  height: 100%;
+}
+
+div.theme {
+  position: absolute;
+  left: 15%;
+  top: 20%;
+}
+
+div.skill-row {
+  width: 100%;
+}
+
+em {
+  font-size: 42px;
+}
+
+.title {
+  font-weight: normal;
+}
+
+.top-container {
+  position: relative;
+}
+
+div.profile {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  width: 100%;
+  /* width: 100%; */
+  /* margin: 40px auto 40px auto; */
+  /* width: 60%; */
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.middle-container {
+  width: 50%;
+}
+
+.profile-img {
+  /* text-align: center; */
+  width: 240px;
+  margin: 75px;
+}
+
+div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ref_url {
+  font-size: 1.2rem;
+  color: rgb(232, 239, 238);
+  padding-top: 0px;
+}
+
+/* .contact-me {
+  padding-bottom: 20px;
+} */
+
+.contact-me p {
+  color: rgb(232, 239, 238);
+}
+
+.email {
+  text-align: center;
+  margin: 3rem;
+}
+
+.bottom-container {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+.footer-link {
+  color: rgb(232, 239, 238);
+}
+
+.logo {
+  height: 50px;
+  margin: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  -webkit-box-shadow: 0 0 0 0 #2b3030;
+  -moz-box-shadow: 0 0 0 0 #2b3030;
+  box-shadow: 0 0 0 0 #2b3030;
+}
+
+.logo:hover {
+  height: 50px;
+  margin: 15px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 15px -15px 60px #af2f8f, -15px 15px 60px gold, 15px 15px 60px #7a16a8, -15px -15px 60px #1dad7d;
+  transition: box-shadow .5s;
+}
+
+.dev_logo {
+  align-content: space-around;
+  padding: 15px;
+}
+
+.dev_logo_btm {
+  padding: 20px 5px 20px;
+}
+
+.copy-right {
+  color: rgb(232, 239, 238);
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    div.theme {
+      left: 4em;
+      top: 2em;
+    }
+
+    .middle-container {
+      width: 80%;
+    }
+} 
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    div.theme {
+      left: 4em;
+      top: 2em;
+    }
+
+    .middle-container {
+      width: 80%;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    div.theme {
+      left: 4em;
+      top: 2em;
+    }
+
+    .middle-container {
+      width: 80%;
+    }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    div.theme {
+      left: 4em;
+      top: 2em;
+    }
+
+    .middle-container {
+      width: 80%;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    div.theme {
+      left: 4em;
+      top: 2em;
+    }
+
+    .middle-container {
+      width: 80%;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    div.theme {
+      left: 4em;
+      top: 2em;
+    }
+
+    .middle-container {
+      width: 80%;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    div.theme {
+      left: 4em;
+      top: 2em;
+    }
+
+    .middle-container {
+      width: 80%;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    div.theme {
+      left: 4em;
+      top: 2em;
+    }
+
+    .middle-container {
+      width: 80%;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    div.theme {
+      left: 4em;
+      top: 2em;
+    }
+
+    .middle-container {
+      width: 80%;
+    }
+}
+
